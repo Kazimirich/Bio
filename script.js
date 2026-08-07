@@ -1,9 +1,9 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const phrases = [
-  "изучаю, как ломают то, что строю...",
-  "web developer в процессе роста...",
-  "next: понять, как это защитить."
+  "learning how to break what I build...",
+  "web developer in the making...",
+  "next: figuring out how to protect it."
 ];
 const el = document.getElementById('typed');
 let pi = 0, ci = 0, deleting = false;
